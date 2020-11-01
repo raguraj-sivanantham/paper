@@ -19,7 +19,9 @@ year=int(input("Enter Year : "))
 while year != 0:
     #open file
     currentFile=str(year)+".txt"
+    currentFileMissed=str(year)+"Missed.txt"
     fileObj=open(currentFile,"a")
+    fileObjMissed=open(currentFileMissed,"a")
     leapOrNot=isLeap(year)
     #Define Months and Days
     #Date Format  : MM/DD/YYYY
@@ -38,6 +40,11 @@ while year != 0:
             if (str(j+1)) not in tempList:
                 #print((i+1),"/",(j+1),year,file=fileObj)  
                 fileObj.write(str(i+1)+"/"+str(j+1)+"/"+str(year)+"\n") 
+        #write missed dates in to the file
+        if tempList != [""]:
+            for x in tempList:
+                fileObjMissed.write(str(i+1)+"/"+str(x)+"/"+str(year)+"\n")
+
         #check other missed dates
         #if no missed dates hit just enter
         current=input("Any missed dates in other months ? ")
@@ -55,6 +62,7 @@ while year != 0:
     print("Year : ",year," Finished")
     print("============================================================")
     fileObj.close()
+    fileObjMissed.close()
     year=input("another year? Enter Year if no press enter: ")
     if year=="":
         year=0
