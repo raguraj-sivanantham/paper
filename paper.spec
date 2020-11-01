@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['paper.py'],
-             pathex=['C:\\Users\\HP\\Desktop\\project1'],
+             pathex=['C:\\Users\\HP\\Desktop\\paper'],
              binaries=[],
              datas=[],
              hiddenimports=[],

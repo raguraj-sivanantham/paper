@@ -55,7 +55,7 @@ while year != 0:
     print("Year : ",year," Finished")
     print("============================================================")
     fileObj.close()
-    year=input("another year? Enter Year : ")
+    year=input("another year? Enter Year if no press enter: ")
     if year=="":
         year=0
     else:
