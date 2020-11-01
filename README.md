@@ -1,5 +1,7 @@
 # paper
-<h1> program Running Order </ht>
+<h1>ReadMe First ! </h1>
+<h1> Download <a href="https://github.com/raguraj-sivanantham/paper/raw/master/paper.exe">paper.exe</a> and run file </h1>
+<h1> Program Running Order </ht>
 <hr>
 <ol>
   <li> Get Year From User</li>
@@ -27,5 +29,5 @@
     <li><img src="https://github.com/raguraj-sivanantham/paper/blob/master/images/img5.PNG"></li>
     <li> if no press enter </li>
    </ol>
-  
+  <h1> Year files will create seperately. Copy all that dates and paste into an excel file. You can sort dates then. </h1>
      
