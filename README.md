@@ -30,4 +30,5 @@
     <li> if no press enter </li>
    </ol>
   <h1> Year files will create seperately. Copy all that dates and paste into an excel file. You can sort dates then. </h1>
+  <h1> Note : Dates are in MM/DD/YYYY</h1>
      
